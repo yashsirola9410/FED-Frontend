@@ -1,0 +1,70 @@
+$font-family: 'Poppins', sans-serif;
+$primary-color: #000;
+$secondary-color: #555;
+$icon-color: #f39c12;
+
+.blogDashBoard{
+    height: 50vh;
+    width: 50vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius:1vw ;
+}
+
+.heading{
+    color: #000;
+    font-size: 4vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    text-align: center;
+}
+
+label{
+    color: #000;
+    font-size: 2.5vh;
+    font-weight: 700;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2vw;
+    height: auto;
+    width: 95%;
+    color: #000;
+    margin: 2vh;
+}
+
+.input_one{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    height: 7vh;
+    width: 100%;
+    border-radius: 1vw;
+    background-color: #ededed
+    
+}
+
+.content{
+    height: 60%;
+    flex-direction: column;
+    font-size: 1.2vw;
+    height: auto;
+    width: 95%;
+    color: #000;
+    margin: 2vh;
+
+}
+
+.input_two{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    height:80%;
+    width: 100%;
+    border-radius: 1vw;
+    background-color: #ededed;
+    
+}
